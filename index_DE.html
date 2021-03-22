@@ -12,7 +12,7 @@
       </div>
       <div id="sidebar">
         <header>
-          <h1>Configurations</h1>
+          <h1>Einstellungen</h1>
         </header>
         <form action="#">
           <div class="field-group">
@@ -22,20 +22,20 @@
             </div>
           </div>
           <div class="field-group">
-            <label class="label">States experienced:</label>
+            <label class="label">Zustände erkundet:</label>
             <div class="field">
               <span id="rules" class="number">0</span>
             </div>
           </div>
           <div class="field-group">
-            <label class="label">Trials:</label>
+            <label class="label">Versuche:</label>
             <div class="field">
               <span id="trials" class="number">0</span>
             </div>
           </div>
 
           <div class="field-group">
-            <label for="game-speed" class="label">Game speed:</label>
+            <label for="game-speed" class="label">Spielgeschwindigkeit:</label>
             <div class="field">
               <input
                 name="tel1"
@@ -49,17 +49,17 @@
 
           <!--///////////////// SELECT MENU ///////////////////-->
           <div class="field-group">
-            <div class="label">Environment:</div>
+            <div class="label">Umgebung:</div>
             <div class="field">
               <select id="env" onchange="environmentChange(this.value)">
-                <option value="Static">Static</option>
-                <option value="Random">Random</option>
+                <option value="Static">Statisch</option>
+                <option value="Random">Zufällig</option>
               </select>
             </div>
           </div>
 
           <div class="field-group">
-            <div class="label">Display Target:</div>
+            <div class="label">Ziel anzeigen:</div>
 
             <div class="field">
               <div>
@@ -70,7 +70,7 @@
                   value="Yes"
                   onchange="toggleDisplayTarget(this.value)"
                 />
-                <label for="showTargetYes">Yes</label>
+                <label for="showTargetYes">Ja</label>
               </div>
               <div>
                 <input
@@ -81,7 +81,7 @@
                   checked
                   onchange="toggleDisplayTarget(this.value)"
                 />
-                <label for="showTargetNo">No</label>
+                <label for="showTargetNo">Nein</label>
               </div>
             </div>
           </div>
@@ -112,10 +112,11 @@
     <script src="js/brain.js"></script>
     <script src="js/config.js"></script>
     <footer>
-      Originally created by
+      Ursprünglich von
       <a href="https://github.com/nileshsah/reinforcement-learning-flappybird"
         >nileshsah</a
-      >, MIT Licence
+      >
+      entwickelt, MIT Licence
     </footer>
   </body>
 </html>
